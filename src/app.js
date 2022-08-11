@@ -114,7 +114,10 @@ const App = () => {
             To-Do App
           </span>
           <div className="border-2 border-solid border-gray-100 rounded-xl p-5">
-            <div className="my-5 flex justify-between items-center">
+            <div
+              style={{ minWidth: "800px" }}
+              className="my-5 flex justify-between items-center"
+            >
               <button
                 type="button"
                 className="flex items-center text-3xl font-bold dark:text-gray-50 border-2 border-solid border-gray-500 p-2 rounded-md dark:hover:bg-gray-400 dark:hover:text-neutral-900"
